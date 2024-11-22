@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <AssemblyName>MMS.Migrators.MSSQL</AssemblyName>
+	  <RootNamespace>MMS.Migrators.MSSQL</RootNamespace>
+      <LangVersion>default</LangVersion>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\MMS.Infrastructure\MMS.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>

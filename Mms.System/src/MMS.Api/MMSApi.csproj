@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <RootNamespace>MMS.Api</RootNamespace>
+	  <AssemblyName>MMS.Api</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0-rc.2.24474.1" />
+    
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+      <ProjectReference Include="..\Migrators\Migrators.SQLite\Migrators.SQLite.csproj" />
+      <ProjectReference Include="..\MMS.ServiceDefaults\MMS.ServiceDefaults.csproj" />
+   
+  </ItemGroup>
+
+</Project>

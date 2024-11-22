@@ -1,0 +1,5 @@
+tests/
+bin/
+obj/
+node_modules/
+*.user

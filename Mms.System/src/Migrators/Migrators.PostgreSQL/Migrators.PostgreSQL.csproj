@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <AssemblyName>MMS.Migrators.PostgreSQL</AssemblyName>
+	  <RootNamespace>MMS.Migrators.PostgreSQL</RootNamespace>
+  </PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\MMS.Infrastructure\MMS.Infrastructure.csproj" />
+	</ItemGroup>
+</Project>

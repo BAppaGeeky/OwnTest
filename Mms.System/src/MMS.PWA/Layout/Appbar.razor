@@ -1,0 +1,10 @@
+﻿<MudAppBar Elevation="0" Fixed="false">
+    <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" />
+    @L["Meter Management System"]
+    <MudSpacer />   
+</MudAppBar>
+
+@code {
+    [Inject]
+    public LayoutService LayoutService { get; set; } = default!;
+}
